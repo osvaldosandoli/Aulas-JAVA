@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		
+		int  contador;
+		
+		int numero;
+		
+		int[] x = new int[5];
+		
+		
+		
+		
+		for (contador=0;contador<=10;contador++) {
+			
+			System.out.println("insira 10 numeros");
+			numero = teclado.nextInt();
+			
+			if (numero < numero) {
+				System.out.println("esse é o maior valor + numero");
+			}
+			
+			
+			
+		}
+		
+		
+		
+
+	}
+
+}

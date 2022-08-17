@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		
+		int  contador;
+		
+		int numero;
+		int maior =0;
+		int[] x = new int[5];
+		
+		
+		//.length é um valor automatico q completa com um nuero certo
+		
+		for (contador=0;contador<x.length;contador++) {
+			System.out.print("digite o valor: ");
+			x[contador] = teclado.nextInt();
+			if(x[contador] > maior || contador ==0) {
+				maior = x[contador];
+			}
+			
+		}
+		System.out.println("maior = " +maior);
+		
+		
+		
+
+	}
+
+}
